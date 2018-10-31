@@ -1,21 +1,13 @@
 const fs = require('fs');
 const path = require('path');
-
 const srcDir = path.join(__dirname, '..', 'src');
 const dataDir = path.join(__dirname, '..', 'data');
 const tmpDir = path.join(__dirname, '..', 'tmp');
 const isProduction = process.env.NODE_ENV === 'production';
-const isDevelopment = process.env.NODE_ENV === 'development' && !isProduction;
+const outputDir = isProduction ? dataDir : tmpDir;
 
-const outputDir = isDevelopment ? tmpDir : dataDir;
-
-// expose handler for Lambda
-exports.run = run;
-
-// for local development
-if (!isProduction) {
-  run();
-}
+// "main" method
+run();
 
 function getTopologyFiles() {
   return fs.readdirSync(srcDir).filter((file) => {

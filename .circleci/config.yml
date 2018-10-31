@@ -26,7 +26,7 @@ jobs:
 
       - run:
           name: Generate a topology
-          command: yarn build
+          command: yarn release
 
       # run one more time to verify the build output
       - run:
