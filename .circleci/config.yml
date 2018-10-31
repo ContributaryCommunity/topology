@@ -18,4 +18,17 @@ jobs:
 
       - run:
           name: Install Project Dependencies
-          command: "echo hello!"
+          command: yarn install
+
+      - run:
+          name: Run Linter
+          command: yarn lint
+
+      - run:
+          name: Generate a topology
+          command: yarn build
+
+      # run one more time to verify the build output
+      - run:
+          name: Run Linter
+          command: yarn lint
