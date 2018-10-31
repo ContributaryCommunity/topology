@@ -1,14 +1,12 @@
 const fs = require('fs');
 const path = require('path');
-
 const srcDir = path.join(__dirname, '..', 'src');
 const dataDir = path.join(__dirname, '..', 'data');
 const tmpDir = path.join(__dirname, '..', 'tmp');
 const isProduction = process.env.NODE_ENV === 'production';
-
 const outputDir = isProduction ? dataDir : tmpDir;
 
-console.log('isProd', isProduction);
+// "main" method
 run();
 
 function getTopologyFiles() {
@@ -52,6 +50,5 @@ function run() {
   const topologyFiles = getTopologyFiles();
   const topology = generateTopologyFromFiles(topologyFiles);
 
-  console.log('topology', topology);
   writeTopologyToFile(topology);
 }
