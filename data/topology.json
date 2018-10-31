@@ -1,0 +1,208 @@
+{
+  "language": {
+    "c": {
+      "label": "C",
+      "projects": [
+        {
+          "name": "Git",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "Torvalds",
+          "type": "user",
+          "repositories": [
+            {
+              "name": "linux"
+            }
+          ]
+        }
+      ]
+    },
+    "go": {
+      "label": "Go",
+      "projects": [
+        {
+          "name": "Docker",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        }
+      ]
+    },
+    "java": {
+      "label": "Java",
+      "projects": [
+        {
+          "name": "JenkinsCI",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "KenzanLabs",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "Netflix",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        }
+      ]
+    },
+    "javascript": {
+      "label": "JavaScript",
+      "projects": [
+        {
+          "name": "Babel",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "ContributaryCommunity",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "DevelopIt",
+          "type": "user",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "Facebook",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "jamiebuilds",
+          "type": "user",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "Microsoft",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "NodeJS",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "npm",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "PayPal",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "Polymer",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "ProjectEvergreen",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "ProvidenceGeeks",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "TheGreenhouseIO",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "thescientist13",
+          "type": "user",
+          "repositories": [
+            {
+              "name": "github-dashboard"
+            }
+          ]
+        },
+        {
+          "name": "VueJS",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "webpack",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "YarnPkg",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        }
+      ]
+    },
+    "php": {
+      "label": "PHP",
+      "projects": [
+        {
+          "name": "composer",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "laravel",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        }
+      ]
+    }
+  }
+}
