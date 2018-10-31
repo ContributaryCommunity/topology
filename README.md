@@ -8,8 +8,8 @@ Right now, all changes are submitted via PR and manually built and deployed into
 
 ## Development
 For contributing to this project and testing the output locally, you will need
-1. NodeJS
-1. Yarn
+1. [NodeJS](https://nodejs.org/) 8.x
+1. [Yarn](https://yarnpkg.com) 1.x
 1. Create _tmp/_ directory in the root of the project
 
 - `yarn lint` - Validatse all JS and JSON passes linting
@@ -18,4 +18,7 @@ For contributing to this project and testing the output locally, you will need
 - `yarn release` - Task to run at release time, to upload _data/topology.json_ to S3
 
 ## Release Procedure
-TODO
+1. Merge all changes into master
+1. Run `yarn release`
+1. Review and commit any changes to _data/_ to master
+1. Bump _package.json_, `git tag` and push everything to master

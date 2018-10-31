@@ -5,17 +5,11 @@ const srcDir = path.join(__dirname, '..', 'src');
 const dataDir = path.join(__dirname, '..', 'data');
 const tmpDir = path.join(__dirname, '..', 'tmp');
 const isProduction = process.env.NODE_ENV === 'production';
-const isDevelopment = process.env.NODE_ENV === 'development' && !isProduction;
 
-const outputDir = isDevelopment ? tmpDir : dataDir;
+const outputDir = isProduction ? dataDir : tmpDir;
 
-// expose handler for Lambda
-exports.run = run;
-
-// for local development
-if (!isProduction) {
-  run();
-}
+console.log('isProd', isProduction);
+run();
 
 function getTopologyFiles() {
   return fs.readdirSync(srcDir).filter((file) => {
@@ -58,5 +52,6 @@ function run() {
   const topologyFiles = getTopologyFiles();
   const topology = generateTopologyFromFiles(topologyFiles);
 
+  console.log('topology', topology);
   writeTopologyToFile(topology);
 }

@@ -10,7 +10,7 @@
     "build": "node ./tasks/build.js",
     "develop": "export NODE_ENV=development && yarn build",
     "lint": "eslint ./tasks/*.js && node ./tasks/lint-json.js",
-    "release": "rimraf ./tmp && yarn build"
+    "release": "export NODE_ENV=production && yarn build"
   },
   "devDependencies": {
     "eslint": "^5.8.0",
