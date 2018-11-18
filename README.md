@@ -3,14 +3,16 @@
 ## Overview
 This project manages (manually) the topology and hierarchies used on the Contributary [website](https://www.contributary.community).
 
-## Contributing Projects
+## Adding Projects
 Right now, all changes are submitted via PR and manually built and deployed into AWS.  
 
 To submit a project
+1. Create an issue in this repo
 1. Fork the repo
 1. Create a branch
-1. Add the project (user or organization) to the array in the appropriate topology file in _src/_
-1. If you want to submit all repositories, use a '*'
+1. Add the project (`"user"` or `"org"`) in the appropriate topology file in _src/_
+1. If you want to submit all repositories, use a wildcard selector `"*"`
+1. Submit a PR!
 
 #### Examples
 ```javascript
