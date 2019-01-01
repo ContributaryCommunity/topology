@@ -91,6 +91,22 @@
           ]
         },
         {
+          "name": "Gatsby",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "bnb",
+          "type": "user",
+          "repositories": [
+            {
+              "name": "good-first-issue"
+            }
+          ]
+        },
+        {
           "name": "jamiebuilds",
           "type": "user",
           "repositories": [
