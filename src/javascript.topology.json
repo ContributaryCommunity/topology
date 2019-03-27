@@ -43,6 +43,10 @@
     "type": "org",
     "repositories": ["*"]
   }, {
+    "name": "open-wc",
+    "type": "org",
+    "repositories": ["*"]
+  }, {
     "name": "PayPal",
     "type": "org",
     "repositories": ["*"]
