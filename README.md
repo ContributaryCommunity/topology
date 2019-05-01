@@ -37,8 +37,8 @@ To submit a project
 
 ## Development
 For contributing to this project and testing the output locally, you will need
-1. [NodeJS](https://nodejs.org/) 8.x
-1. [Yarn](https://yarnpkg.com) 1.x
+1. [NodeJS](https://nodejs.org/) v10.x
+1. [Yarn](https://yarnpkg.com) v1.10 (>= 1.10)
 1. Create _tmp/_ directory in the root of the project
 
 - `yarn lint` - Validatse all JS and JSON passes linting
