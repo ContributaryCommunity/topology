@@ -84,6 +84,13 @@
           ]
         },
         {
+          "name": "expressjs",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
           "name": "Facebook",
           "type": "org",
           "repositories": [
@@ -129,6 +136,13 @@
         },
         {
           "name": "npm",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "open-wc",
           "type": "org",
           "repositories": [
             "*"
