@@ -14,7 +14,7 @@
     "repositories": ["*"]
   }, {
     "name": "expressjs",
-    "type": "orgr",
+    "type": "org",
     "repositories": ["*"]
   }, {
     "name": "Facebook",
