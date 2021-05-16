@@ -98,19 +98,17 @@
           ]
         },
         {
-          "name": "Gatsby",
+          "name": "GatsbyJS",
           "type": "org",
           "repositories": [
             "*"
           ]
         },
         {
-          "name": "bnb",
-          "type": "user",
+          "name": "cutenode",
+          "type": "org",
           "repositories": [
-            {
-              "name": "good-first-issue"
-            }
+            "*"
           ]
         },
         {
@@ -227,6 +225,18 @@
         },
         {
           "name": "laravel",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        }
+      ]
+    },
+    "rust": {
+      "label": "Rust",
+      "projects": [
+        {
+          "name": "entropic-dev",
           "type": "org",
           "repositories": [
             "*"
