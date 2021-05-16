@@ -1,3 +1,4 @@
+aws.json
 *.log
 .vscode/
 node_modules/
