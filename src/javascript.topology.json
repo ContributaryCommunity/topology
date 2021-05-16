@@ -21,15 +21,13 @@
     "type": "org",
     "repositories": ["*"]
   }, {
-    "name": "Gatsby",
+    "name": "GatsbyJS",
     "type": "org",
     "repositories": ["*"]
   }, {
-    "name": "bnb",
-    "type": "user",
-    "repositories": [{
-      "name": "good-first-issue"
-    }]
+    "name": "cutenode",
+    "type": "org",
+    "repositories": ["*"]
   }, {
     "name": "jamiebuilds",
     "type": "user",
