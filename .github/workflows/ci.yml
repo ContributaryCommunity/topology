@@ -25,4 +25,4 @@ jobs:
         yarn lint
     - name: Build
       run: |
-        yarn clean && yarn build && yarn release
+        yarn build && yarn release
