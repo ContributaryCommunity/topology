@@ -38,6 +38,7 @@ function generateTopologyFromFiles(files) {
 function writeTopologyToFile(topologyObj) {
   const filePath = `${outputDir}/topology.json`;
 
+  fs.mkdirSync(outputDir, { recursive: true });
   fs.writeFileSync(`${filePath}`, JSON.stringify(topologyObj, null, 2), (err) => {
     if (err) {
       return console.error(err);
