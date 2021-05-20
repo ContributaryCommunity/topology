@@ -72,6 +72,12 @@
     "name": "thescientist13",
     "type": "user",
     "repositories": [{
+      "name": "copy-dots"
+    }, {
+      "name": "gallinago"
+    }, {
+      "name": "git-explorer"
+    }, {
       "name": "github-dashboard"
     }]
   }, {
