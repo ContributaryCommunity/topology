@@ -1,6 +1,12 @@
 {
   "label": "Go",
   "projects": [{
+    "name": "evanw",
+    "type": "user",
+    "repositories": [{
+      "name": "esbuild"
+    }]
+  }, {
     "name": "Docker",
     "type": "org",
     "repositories": ["*"]

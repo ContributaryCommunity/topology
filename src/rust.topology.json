@@ -4,5 +4,9 @@
     "name": "entropic-dev",
     "type": "org",
     "repositories": ["*"]
+  }, {
+    "name": "swc-project",
+    "type": "org",
+    "repositories": ["*"]
   }]
 }
