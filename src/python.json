@@ -1,0 +1,12 @@
+{
+  "label": "Python",
+  "projects": [{
+    "name": "django",
+    "type": "org",
+    "repositories": ["*"]
+  }, {
+    "name": "python",
+    "type": "org",
+    "repositories": ["*"]
+  }]
+}
