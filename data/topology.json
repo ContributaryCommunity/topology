@@ -25,6 +25,15 @@
       "label": "Go",
       "projects": [
         {
+          "name": "evanw",
+          "type": "user",
+          "repositories": [
+            {
+              "name": "esbuild"
+            }
+          ]
+        },
+        {
           "name": "Docker",
           "type": "org",
           "repositories": [
@@ -186,6 +195,15 @@
           "type": "user",
           "repositories": [
             {
+              "name": "copy-dots"
+            },
+            {
+              "name": "gallinago"
+            },
+            {
+              "name": "git-explorer"
+            },
+            {
               "name": "github-dashboard"
             }
           ]
@@ -232,11 +250,37 @@
         }
       ]
     },
+    "python": {
+      "label": "Python",
+      "projects": [
+        {
+          "name": "django",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "python",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        }
+      ]
+    },
     "rust": {
       "label": "Rust",
       "projects": [
         {
           "name": "entropic-dev",
+          "type": "org",
+          "repositories": [
+            "*"
+          ]
+        },
+        {
+          "name": "swc-project",
           "type": "org",
           "repositories": [
             "*"
